@@ -2,9 +2,14 @@
 layout: default
 ---
 
-# Test layout checking if markdown templates are a thing
+<h2>Hello from {{ page.my_var }}</h2>
 
-
-Hello from {{ page.my_var }}
+{% capture md %}
+# Hello from markdown in the layout
+## Sub-test
+Test var substitution inside capture:
+hello again from {{ page.my_var }}
+{% endcapture %}
+{{ md | markdownify }}
 
 {{content}}
