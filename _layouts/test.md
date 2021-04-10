@@ -6,3 +6,5 @@ layout: default
 
 
 Hello from {{ page.my_var }}
+
+{{content}}
