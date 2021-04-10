@@ -12,4 +12,8 @@ hello again from {{ page.my_var }}
 {% endcapture %}
 {{ md | markdownify }}
 
+{% for item in site.data.storage %}
+<p>Item title: {{ item.title }}</p>
+{% endfor %}
+
 {{content}}
