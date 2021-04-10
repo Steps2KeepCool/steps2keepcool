@@ -14,17 +14,17 @@ hello again from {{ page.my_var }}
 
 <table>
   <tr>
-    <th scope="col">Title</th>
+    <th scope="col">Summary</th>
     <th scope="col">Link</th>
-    <th scope="col">Description</th>
+    <th scope="col">More info</th>
     <th scope="col">Tweet</th>
   </tr>
 {% for item in site.data.storage %}
   <tr>
     <td>{{ item.title }}</td>
-    <td>{{ item.articleLink }}</td>
+    <td><a href="{{ item.articleLink }}">Link</href></td>
     <td>{{ item.desc }}</td>
-    <td>{{ item.tweetLink }}</td>
+    <td><a href="{{ item.tweetLink }}">Tweet</href></td>
   </tr>
 {% endfor %}
 </table>
