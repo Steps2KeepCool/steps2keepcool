@@ -1,0 +1,44 @@
+[
+  {
+    "title"        : "Ammonia-based storage",
+    "articleLink"  : "https://ammoniaindustry.com/ammonia-for-energy-storage-economic-and-technical-analysis/",
+    "desc"         : "Proposed ammonia storage with 72% round-trip efficiency",
+    "tweetLink"    : "https://twitter.com/Steps2KeepCool/status/1163165949391986688"
+  },
+  {
+    "title"        : "Hydrogen reversible fuel cell",
+    "articleLink"  : "https://www.erneuerbareenergien.de/sunfire-startet-wasserstoffkraftwerk",
+    "desc"         : "Hydrogen storage with reversible solid oxide electrolyzer/fuel cell",
+    "tweetLink"    : "https://twitter.com/Steps2KeepCool/status/1163165950474108928"
+  },
+  {
+    "title"        : "SaltX nano-coated salt",
+    "articleLink"  : "http://saltxtechnology.com/",
+    "desc"         : "SaltX nano-coated salt (inc. pilot plant)  power->heat->dehydrate->rehydrate->heat->power  (inc. tabletop demo tubes!)",
+    "tweetLink"    : "https://twitter.com/Steps2KeepCool/status/1163165951568818177"
+  },
+  {
+    "title"        : "Hydrogen reversible fuel cell",
+    "articleLink"  : "https://www.solarpaces.org/make-carnot-batteries-with-molten-salt-thermal-energy-storage-from-ex-coal-plants/",
+    "desc"         : "Malta molten salt (inc. pilot plant - conversion of a coal plant)",
+    "tweetLink"    : "https://twitter.com/Steps2KeepCool/status/1163165952625848320"
+  },
+  {
+    "title"        : "Siemens electro-thermal storage",
+    "articleLink"  : "https://cleantechnica.com/2019/06/17/siemens-gamesa-unveils-world-first-electrothermal-energy-storage-system/",
+    "desc"         : "Siemens Gamesa electro-thermal storage using heated rock (inc. pilot plant, storage ~week)",
+    "tweetLink"    : "https://twitter.com/Steps2KeepCool/status/1163165953582084096"
+  },
+  {
+    "title"        : "1414 molten silicon",
+    "articleLink"  : "https://1414degrees.com.au/solutions/",
+    "desc"         : "power/heat->molten silicon->power+heat  (inc. protos/pilot)",
+    "tweetLink"    : "https://twitter.com/Steps2KeepCool/status/1163165954559369217"
+  },
+  {
+    "title"        : "EnergyVault block stacking",
+    "articleLink"  : "https://energyvault.com/",
+    "desc"         : "gravity storage concrete block stacking",
+    "tweetLink"    : "https://twitter.com/Steps2KeepCool/status/1163165955549253633"
+  }
+]
