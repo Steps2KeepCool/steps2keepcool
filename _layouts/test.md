@@ -29,4 +29,11 @@ hello again from {{ page.my_var }}
 {% endfor %}
 </table>
 
+<h2>Test enumerating subdirectory data files</h2>
+
+{% for item_hash in site.data.techs.genericlists %}
+  <p>Key: {{ item_hash[0] }} </p>
+{% endfor %}
+
+
 {{content}}
