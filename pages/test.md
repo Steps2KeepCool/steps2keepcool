@@ -1,6 +1,6 @@
 ---
 layout: test
-my_var: storage
+my_var: low-ghg-industry
 ---
 
 # Test page
