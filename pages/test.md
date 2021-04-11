@@ -1,6 +1,6 @@
 ---
 layout: test
-my_var: a test page
+my_var: storage
 ---
 
 # Test page
