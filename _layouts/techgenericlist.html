@@ -4,10 +4,8 @@ layout: default
 {{content}}
 
 {% for item_hash in site.data.techs.genericlists %}
-  <p>Key: {{ item_hash[0] }} </p>
   {% if item_hash[0] == page.my_list %}
     {% assign topiclist = item_hash[1] %}
-    <p>  - topic list selected</p>
   {% endif %}
 {% endfor %}
 
