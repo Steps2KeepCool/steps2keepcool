@@ -12,6 +12,16 @@ hello again from {{ page.my_var }}
 {% endcapture %}
 {{ md | markdownify }}
 
+<h2>Test enumerating subdirectory data files</h2>
+
+{% for item_hash in site.data.techs.genericlists %}
+  <p>Key: {{ item_hash[0] }} </p>
+  {% if item_hash[0] == page.my_var %}
+    {% assign topiclist = item_hash[1] %}
+    <p>  - topic list selected</p>
+  {% endif %}
+{% endfor %}
+
 <table>
   <tr>
     <th scope="col">Summary</th>
@@ -19,7 +29,7 @@ hello again from {{ page.my_var }}
     <th scope="col">More info</th>
     <th scope="col">Tweet</th>
   </tr>
-{% for item in site.data.storage %}
+{% for item in topiclist %}
   <tr>
     <td>{{ item.title }}</td>
     <td><a href="{{ item.articleLink }}">Link</href></td>
@@ -28,12 +38,6 @@ hello again from {{ page.my_var }}
   </tr>
 {% endfor %}
 </table>
-
-<h2>Test enumerating subdirectory data files</h2>
-
-{% for item_hash in site.data.techs.genericlists %}
-  <p>Key: {{ item_hash[0] }} </p>
-{% endfor %}
 
 
 {{content}}
