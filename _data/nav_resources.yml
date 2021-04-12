@@ -1,0 +1,7 @@
+- title: Energy
+  subnav:
+    - title: Storage
+      url: /pages/resources/energy/storage.html
+- title: Industry
+  url: /pages/resources/industry/low-ghg-industry.html
+  
