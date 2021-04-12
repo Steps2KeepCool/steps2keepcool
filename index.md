@@ -5,7 +5,7 @@ title: Home
 Keeping the Earth livable for human society needs us to move together towards a low-carbon world.
 We need to take action in the different roles that people take on in our lives, at multiple levels within society: voter, elected official, business person, individual, and all the others.
 
-This site aims to bring together useful resources on steps on the path to a stable climate.
+This site aims to bring together useful resources for steps on the path to a stable climate.
 
 <script>
 
@@ -242,4 +242,4 @@ for( i_42343 = 0; i_42343 < myExpandElements_42343.length; i_42343++ ) {
 
 </script>
 
-
+{% include nav_resources.md %}
